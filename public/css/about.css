@@ -59,6 +59,16 @@
     font-size: 18px;
     line-height: 23px;
     cursor:pointer;
+     transition: 
+    color 0.3s ease-in, 
+    background-color 0.3s ease-in, 
+    transform 1s ease, 
+    text-shadow 0.3s ease;
+}
+.about-us__button:hover{
+     color: var(--primary-color);
+  text-shadow: 0 0 5px #ff4757, 0 0 10px #ff6b81;
+  transform: translateY(-5px);
 }
 
 .about-us__button img{

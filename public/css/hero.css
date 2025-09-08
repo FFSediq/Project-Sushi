@@ -90,6 +90,15 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 23px;
+    transition: 
+    color 0.3s ease-in, 
+    transform 1s ease, 
+    text-shadow 0.3s ease;
+}
+.hero-content__order-button:hover{
+    color: var(--primary-color);
+    transform: translateY(-5px);
+    text-shadow: 0 0 5px #ff4757, 0 0 10px #ff6b81;
 }
 
 .hero-content__play-button{
@@ -103,6 +112,16 @@
     color: var(--black-200);
     font-family: var(--plus-jakarta-sans);
     cursor: pointer;
+     transition: 
+    color 0.3s ease-in,  
+    transform 1s ease, 
+    text-shadow 0.3s ease;
+}
+
+.hero-content__play-button:hover{
+    color: var(--primary-color);
+    transform: translateY(-5px);
+    text-shadow: 0 0 5px #ff4757, 0 0 10px #ff6b81;
 }
 
 .hero-content__play-button img{
